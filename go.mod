@@ -2,8 +2,13 @@ module github.com/yuntian-he/golang-blockchain
 
 go 1.20
 
+require github.com/dgraph-io/badger v1.5.4
+
 require (
-	golang.org/x/text v0.0.0-20170915032832-14c0d48ead0c // indirect
-	rsc.io/quote v1.5.2
-	rsc.io/sampler v1.3.0 // indirect
+	github.com/AndreasBriese/bbloom v0.0.0-20180913140656-343706a395b7 // indirect
+	github.com/dgryski/go-farm v0.0.0-20180109070241-2de33835d102 // indirect
+	github.com/golang/protobuf v1.2.0 // indirect
+	github.com/pkg/errors v0.8.0 // indirect
+	golang.org/x/net v0.0.0-20181023162649-9b4f9f5ad519 // indirect
+	golang.org/x/sys v0.9.0 // indirect
 )
