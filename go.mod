@@ -2,7 +2,11 @@ module github.com/yuntian-he/golang-blockchain
 
 go 1.20
 
-require github.com/dgraph-io/badger v1.5.4
+require (
+	github.com/dgraph-io/badger v1.5.4
+	github.com/mr-tron/base58 v1.1.0
+	golang.org/x/crypto v0.0.0-20181030102418-4d3f4d9ffa16
+)
 
 require (
 	github.com/AndreasBriese/bbloom v0.0.0-20180913140656-343706a395b7 // indirect
